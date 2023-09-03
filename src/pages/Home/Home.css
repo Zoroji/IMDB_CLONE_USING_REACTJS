@@ -1,0 +1,29 @@
+
+
+.poster_img{
+
+    height:100vh;
+}
+
+.poster_img__overlay {
+    position: absolute;
+    top:30rem;
+    width: 60rem;
+    display: flex;
+    padding-left: 6rem;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.poster_img__title{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.poster_img__date{
+    font-size: 1.6rem;
+ 
+}
+.poster_img__rating{
+    padding-left: 4rem;
+}

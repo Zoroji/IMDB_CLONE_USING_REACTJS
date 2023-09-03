@@ -1,0 +1,25 @@
+.cards{
+    height: 23rem;
+    width: 15rem;
+    border: 2px solid rgb(38, 39, 40);
+   border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.cards:hover{
+    transform: scale(1.04);
+    transition:all 0.5s ease-in-out;
+   
+}
+.card__img{
+    height: 15rem;
+}
+.card__overlay{
+    background-color: rgb(235, 223, 223);
+    color: black;
+    padding:0.4rem;
+}
+
+

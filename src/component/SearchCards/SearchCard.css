@@ -1,0 +1,24 @@
+.movieCard
+{
+    cursor: pointer;
+    display: flex;
+    border: 2px solid beige;
+    margin:0.5rem 0;
+    width: 100%;
+    height:5rem;
+    transition: all 0.3s ease-in;
+}
+.movieCard:hover
+{
+    transform: scale(1.04);
+    border: 2px solid rgb(255, 255, 0);
+}
+.movieCard img
+{
+  width: 3rem;
+  height: 100%;
+}
+
+.movieCard__title{
+    padding:5px;
+}
