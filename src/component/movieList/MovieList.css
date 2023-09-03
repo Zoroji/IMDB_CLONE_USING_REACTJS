@@ -1,0 +1,22 @@
+.movie_list__type{
+    margin-top: 2rem;
+    margin-left: 8rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.movie_list__cards{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.btn-load-more{
+    background-color: rgb(216, 230, 243);
+    color:grey;
+    margin:2rem 50%;
+    width: 4rem;
+    border-radius: 50%;
+    height: 4rem;
+    cursor:pointer;
+}

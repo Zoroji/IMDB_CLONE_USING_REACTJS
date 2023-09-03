@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    gap: 3rem;
+    padding: 1.2rem;
+  
+}
+.header__icon{
+    height: 2.4rem;
+}
+
+.header-left {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+}
+.header-right {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-left: 30%;
+        gap: 2rem;
+        position: relative;
+}
+.header-right input{
+    padding:0 0.3rem;
+       border:none;
+       width: 12rem;
+       height: 1.8rem;
+       border-radius: 12px;
+}
+.header__Link{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin:0 1rem;
+}
+.header__Link:hover {
+    color: rgb(200, 60, 60);
+}
+.searchList{
+    z-index:200;
+    position: absolute;
+    top: 100%; 
+    left: 0rem;
+    width: 20rem;
+    min-height: 0;
+    max-height:100vh;
+    overflow: hidden;
+    background-color: rgba(98, 93, 93, 0.615);
+}
